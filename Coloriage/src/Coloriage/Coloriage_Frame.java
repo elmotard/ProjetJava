@@ -27,113 +27,50 @@ public class Coloriage_Frame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        menuBar = new javax.swing.JMenuBar();
-        fileMenu = new javax.swing.JMenu();
-        openMenuItem = new javax.swing.JMenuItem();
-        saveMenuItem = new javax.swing.JMenuItem();
-        saveAsMenuItem = new javax.swing.JMenuItem();
-        exitMenuItem = new javax.swing.JMenuItem();
-        editMenu = new javax.swing.JMenu();
-        cutMenuItem = new javax.swing.JMenuItem();
-        copyMenuItem = new javax.swing.JMenuItem();
-        pasteMenuItem = new javax.swing.JMenuItem();
-        deleteMenuItem = new javax.swing.JMenuItem();
-        helpMenu = new javax.swing.JMenu();
-        contentsMenuItem = new javax.swing.JMenuItem();
-        aboutMenuItem = new javax.swing.JMenuItem();
+        jPanel1 = new javax.swing.JPanel();
+        jColorChooser1 = new javax.swing.JColorChooser();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1920, 1080));
 
-        fileMenu.setMnemonic('f');
-        fileMenu.setText("File");
+        jPanel1.setToolTipText("");
+        jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        openMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.META_MASK));
-        openMenuItem.setMnemonic('o');
-        openMenuItem.setText("Open");
-        fileMenu.add(openMenuItem);
-
-        saveMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.META_MASK));
-        saveMenuItem.setMnemonic('s');
-        saveMenuItem.setText("Save");
-        fileMenu.add(saveMenuItem);
-
-        saveAsMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.META_MASK));
-        saveAsMenuItem.setMnemonic('a');
-        saveAsMenuItem.setText("Save As ...");
-        saveAsMenuItem.setDisplayedMnemonicIndex(5);
-        fileMenu.add(saveAsMenuItem);
-
-        exitMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.META_MASK));
-        exitMenuItem.setMnemonic('x');
-        exitMenuItem.setText("Exit");
-        exitMenuItem.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                exitMenuItemActionPerformed(evt);
-            }
-        });
-        fileMenu.add(exitMenuItem);
-
-        menuBar.add(fileMenu);
-
-        editMenu.setMnemonic('e');
-        editMenu.setText("Edit");
-
-        cutMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.META_MASK));
-        cutMenuItem.setMnemonic('t');
-        cutMenuItem.setText("Cut");
-        editMenu.add(cutMenuItem);
-
-        copyMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.META_MASK));
-        copyMenuItem.setMnemonic('y');
-        copyMenuItem.setText("Copy");
-        editMenu.add(copyMenuItem);
-
-        pasteMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.META_MASK));
-        pasteMenuItem.setMnemonic('p');
-        pasteMenuItem.setText("Paste");
-        editMenu.add(pasteMenuItem);
-
-        deleteMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_BACK_SPACE, 0));
-        deleteMenuItem.setMnemonic('d');
-        deleteMenuItem.setText("Delete");
-        editMenu.add(deleteMenuItem);
-
-        menuBar.add(editMenu);
-
-        helpMenu.setMnemonic('h');
-        helpMenu.setText("Help");
-
-        contentsMenuItem.setMnemonic('c');
-        contentsMenuItem.setText("Contents");
-        helpMenu.add(contentsMenuItem);
-
-        aboutMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_M, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.META_MASK));
-        aboutMenuItem.setMnemonic('a');
-        aboutMenuItem.setText("About");
-        helpMenu.add(aboutMenuItem);
-
-        menuBar.add(helpMenu);
-
-        setJMenuBar(menuBar);
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 728, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 451, Short.MAX_VALUE)
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1840, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(597, Short.MAX_VALUE)
+                .addComponent(jColorChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, 647, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(540, 540, 540))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1119, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                .addComponent(jColorChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void exitMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitMenuItemActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_exitMenuItemActionPerformed
 
     /**
      * @param args the command line arguments
@@ -171,20 +108,8 @@ public class Coloriage_Frame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem aboutMenuItem;
-    private javax.swing.JMenuItem contentsMenuItem;
-    private javax.swing.JMenuItem copyMenuItem;
-    private javax.swing.JMenuItem cutMenuItem;
-    private javax.swing.JMenuItem deleteMenuItem;
-    private javax.swing.JMenu editMenu;
-    private javax.swing.JMenuItem exitMenuItem;
-    private javax.swing.JMenu fileMenu;
-    private javax.swing.JMenu helpMenu;
-    private javax.swing.JMenuBar menuBar;
-    private javax.swing.JMenuItem openMenuItem;
-    private javax.swing.JMenuItem pasteMenuItem;
-    private javax.swing.JMenuItem saveAsMenuItem;
-    private javax.swing.JMenuItem saveMenuItem;
+    private javax.swing.JColorChooser jColorChooser1;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
 }
