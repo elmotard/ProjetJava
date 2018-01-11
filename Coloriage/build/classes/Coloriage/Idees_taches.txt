@@ -1,0 +1,5 @@
+- Enregistrer le dessin dans une image (fichier image) pour pouvoir avoir les valeurs 0-255 (comparaison)
+- Modifier l'action du bouton vérification pour correspondre à la phrase du dessus.
+- Afficher deux fenêtres, au démarrage et à l'appuie du bouton charger, pour charger les deux images (Filechooser : http://imss-www.upmf-grenoble.fr/prevert/Prog/Java/swing/JFileChooser.html) ==> fonction car rappelle lors de la creation d'une nouvelle session
+- Signets => Ajout Racouris pour MacOS
+- jPanel pour le slider (erreur d'affichage)

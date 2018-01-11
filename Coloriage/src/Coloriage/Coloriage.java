@@ -16,10 +16,11 @@ public class Coloriage {
      */
     
     
-    public static void main(String[] args) {
+    public static void main(String[] args){
         // TODO code application logic here
         Coloriage_Frame cf = new Coloriage_Frame();
         cf.setVisible(true);
+        
     }
     
 }

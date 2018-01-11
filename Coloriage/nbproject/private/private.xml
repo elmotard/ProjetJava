@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>src/Coloriage/Coloriage_Frame.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>460</line>
+                <key/>
+            </bookmark>
+            <bookmark id="2">
+                <name/>
+                <line>460</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Users/Remy/Library/Mobile%20Documents/com~apple~CloudDocs/Université/Semestre%203/Conception%20et%20programmation%20objet%20avancées/Projet/Projet_Java/Coloriage/src/Coloriage/Coloriage_Frame.java</file>
+            <file>file:/Users/Remy/Library/Mobile%20Documents/com~apple~CloudDocs/Université/Semestre%203/Conception%20et%20programmation%20objet%20avancées/Projet/Projet_Java/Coloriage/src/Coloriage/Coloriage.java</file>
+            <file>file:/Users/Remy/Library/Mobile%20Documents/com~apple~CloudDocs/Université/Semestre%203/Conception%20et%20programmation%20objet%20avancées/Projet/Projet_Java/Coloriage/src/Coloriage/Idees_taches.txt</file>
+        </group>
     </open-files>
 </project-private>
