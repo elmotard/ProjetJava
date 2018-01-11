@@ -3,12 +3,12 @@ Ce logiciel a un but ludo-éducatif, destiné à des enfants pour l'apprentissag
 
 Le logiciel devra permettre de charger des images en noir et blanc correspondant à des dessins au trait. L'utilisateur devra pouvoir choisir une couleur et pouvoir dessiner sur l'image de manière à la mettre en couleurs.
 
-![Alt text](exemple_noir&blanc.jpg?raw=true "Image en noir et blanc") ![Alt text](exemple_couleur.gif?raw=true "Image en couleur")
+![Alt text](Exemples/exemple_noir&blanc.jpg?raw=true "Image en noir et blanc") ![Alt text](Exemples/exemple_couleur.gif?raw=true "Image en couleur")
 
 La couleur sera choisie dans une palette de couleurs réduite (environ une vingtaine, suffisamment différentes et ne comportant pas le noir). L'utilisateur pourra aussi choisir une taille d'épaisseur de trait.
 
 <p align="center">
-  <img src="palette_de_couleur.gif">
+  <img src="Exemples/palette_de_couleur.gif">
 </p>
 
 Les images à colorier sont fournies en deux exemplaires : l'image monochrome à colorier et la même image déjà coloriée, l'utilisateur devant respecter ces couleurs. On affichera l'image devant être obtenue en miniature afin que l'utilisateur ait le modèle sous les yeux.
